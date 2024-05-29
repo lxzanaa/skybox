@@ -15,3 +15,6 @@
 .card_shadow {
     box-shadow: 0 13px 27px 0 rgba(0, 0, 0, 0.1);
 }
+.gradient_btn{
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+}
