@@ -35,3 +35,6 @@ body {
 .faq-gradient{
     background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
 }
+.faq-gradient_2{
+    background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
+}
