@@ -43,7 +43,6 @@
             </p>
             <div class="max-w-[992px] mx-auto justify-center">
                 <form>
-
                     <div class="flex items-center gap-11 -translate-x-[115px] mb-8 max-w-[992px] justify-end">
                         <label class="text-[#3B3F8D] font-bold text-2xl text-right" for="email">Required fields <br>
                             e-mail *</label>
@@ -53,10 +52,12 @@
                                 type="email" placeholder="mail@example.com" autocomplete="off">
                             <button
                                 class="gradient_btn py-5 px-20 text-white font-bold text-2xl rounded-full">Verify</button>
-                            </div>
                         </div>
-                        <p class="text-[#BB6DF3] text-center font-bold text-base mb-11" >Further instructions will be sent to your registered email.</p>
-
+                    </div>
+                    <p class="text-[#BB6DF3] text-center font-bold text-base mb-11">Further instructions will be sent to
+                        your registered email.</p>
+                </form>
+                <form>
                     <div class="flex items-center gap-11 -translate-x-[115px] mb-5 max-w-[992px] justify-end">
                         <label class="text-[#3B3F8D] font-bold text-2xl " for="Password">Password</label>
                         <input required id="Password"
@@ -65,7 +66,7 @@
                     </div>
                     <div
                         class="flex items-center gap-11 -translate-x-[115px] mb-5 max-w-[992px] justify-end text-right">
-                        <label class="text-[#3B3F8D] font-bold text-2xl " for="New Password">Re - Email</label>
+                        <label class="text-[#3B3F8D] font-bold text-2xl " for="New Password">New Password</label>
                         <input required id="New Password"
                             class="max-w-[630px] placeholder:text-[#ADADAD] w-full outline-none border-none bg-[#F3F3F3] py-9 px-14 rounded-full text-[#3B3F8D] font-bold"
                             type="password" placeholder="***********" autocomplete="off">
@@ -78,8 +79,9 @@
                     </div>
                     <div class="max-w-[355px] mx-auto flex flex-col gap-7 justify-center text-center">
                         <div class="flex items-start gap-2 justify-center">
-                            <input type="checkbox">
-                            <p class="text-[#ADADAD] font-bold">User Direct Links <br> Only for Premium users</p>
+                            <input id="checkbox" type="checkbox">
+                            <label for="checkbox" class="text-[#ADADAD] font-bold">User Direct Links <br> Only for
+                                Premium users</label>
                         </div>
                         <button
                             class="gradient_btn rounded-full text-white font-bold text-2xl py-6 px-[123px] ">Register</button>
@@ -126,12 +128,12 @@
             <div>
                 <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">Featured links</h3>
                 <ul class="flex flex-col gap-4">
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Pricing</a></li>
+                    <li><a class="text-white text-xl hover:underline transition-all" href="tarif.html">Pricing</a></li>
                     <li><a class="text-white text-xl hover:underline transition-all" href="contact.html">Contact</a>
                     </li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">DMCA</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Refund Policy</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Privacy Policy</a></li>
+                    <li><a class="text-white text-xl hover:underline transition-all" href="FAQ.html">FAQ</a></li>
+                    <li><a class="text-white text-xl hover:underline transition-all" href="text.html">About</a></li>
+                    <li><a class="text-white text-xl hover:underline transition-all" href="profile.html">Profile</a></li>
                     <li><a class="text-white text-xl hover:underline transition-all" href="#">Terms of Service</a></li>
                 </ul>
             </div>
@@ -144,9 +146,11 @@
                             2027,</a>
                     </li>
                     <li><a class="text-white text-xl hover:underline transition-all" href="#">Lefkosia, Cyprus</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Phone: +37 06 225 29
+                    <li><a class="text-white text-xl hover:underline transition-all" href="tel: +37 06 225 29">Phone:
+                            +37 06 225 29
                             36</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Email:
+                    <li><a class="text-white text-xl hover:underline transition-all"
+                            href="mailto:  mail@example.com">Email:
                             mail@example.com</a></li>
                 </ul>
             </div>
