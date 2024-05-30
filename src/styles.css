@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+body {
+    font-family: 'comfortaa';
+}
+
 .comfortaa {
     font-family: "Comfortaa", sans-serif;
 }
@@ -15,6 +19,20 @@
 .card_shadow {
     box-shadow: 0 13px 27px 0 rgba(0, 0, 0, 0.1);
 }
-.gradient_btn{
+
+.gradient_btn {
     background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+}
+
+.spacing_2 {
+    letter-spacing: 0.91em;
+}
+
+.spacing_title {
+    letter-spacing: 0.32em;
+}
+
+.faq-gradient {
+    background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
+    /* opacity: 0.2; */
 }
