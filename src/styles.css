@@ -32,7 +32,6 @@ body {
     letter-spacing: 0.32em;
 }
 
-.faq-gradient {
+.faq-gradient{
     background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
-    /* opacity: 0.2; */
 }

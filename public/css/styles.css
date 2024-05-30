@@ -525,6 +525,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .mb-11 {
   margin-bottom: 2.75rem;
 }
@@ -564,9 +568,6 @@ video {
 .mb-\[76px\] {
   margin-bottom: 76px;
 }
-.mt-8 {
-  margin-top: 2rem;
-}
 .flex {
   display: flex;
 }
@@ -582,8 +583,8 @@ video {
 .max-h-0 {
   max-height: 0px;
 }
-.max-h-40 {
-  max-height: 10rem;
+.max-h-full {
+  max-height: 100%;
 }
 .w-\[308px\] {
   width: 308px;
@@ -591,8 +592,8 @@ video {
 .w-full {
   width: 100%;
 }
-.max-w-\[1000x\] {
-  max-width: 1000x;
+.max-w-\[1199px\] {
+  max-width: 1199px;
 }
 .max-w-\[1240px\] {
   max-width: 1240px;
@@ -617,15 +618,6 @@ video {
 }
 .max-w-\[815\.8px\] {
   max-width: 815.8px;
-}
-.max-w-\[500x\] {
-  max-width: 500x;
-}
-.max-w-\[1000px\] {
-  max-width: 1000px;
-}
-.max-w-\[1199px\] {
-  max-width: 1199px;
 }
 .-translate-x-24 {
   --tw-translate-x: -6rem;
@@ -724,10 +716,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 .bg-cover {
   background-size: cover;
@@ -853,9 +841,6 @@ video {
 }
 .pt-\[89px\] {
   padding-top: 89px;
-}
-.pt-8 {
-  padding-top: 2rem;
 }
 .text-center {
   text-align: center;
@@ -992,6 +977,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(133 114 255 / var(--tw-text-opacity));
 }
+.text-\[\#878787\] {
+  --tw-text-opacity: 1;
+  color: rgb(135 135 135 / var(--tw-text-opacity));
+}
 .text-\[\#ADADAD\] {
   --tw-text-opacity: 1;
   color: rgb(173 173 173 / var(--tw-text-opacity));
@@ -1007,13 +996,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.text-\[\#878787\] {
-  --tw-text-opacity: 1;
-  color: rgb(135 135 135 / var(--tw-text-opacity));
-}
-.text-\[\] {
-  color: ;
 }
 .outline-none {
   outline: 2px solid transparent;
@@ -1055,9 +1037,8 @@ body {
     letter-spacing: 0.32em;
 }
 
-.faq-gradient {
+.faq-gradient{
     background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
-    /* opacity: 0.2; */
 }
 
 .placeholder\:text-\[\#ADADAD\]::-moz-placeholder {
