@@ -32,9 +32,18 @@ body {
     letter-spacing: 0.32em;
 }
 
-.faq-gradient{
+.max-h-0 {
+    max-height: 0;
+}
+.max-h-full {
+    max-height: 500px; 
+}
+.transition-max-height {
+    transition: all 0.3s ease;
+}
+.faq-gradient {
     background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
 }
-.faq-gradient_2{
+.faq-gradient_2 {
     background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
 }
