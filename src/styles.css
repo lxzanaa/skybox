@@ -47,3 +47,6 @@ body {
 .faq-gradient_2 {
     background: linear-gradient(90deg, #b2e3ff 0%, #dfbfff 100%);
 }
+.spacing__text{
+    letter-spacing: 0.35em;
+}
