@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden scroll-smooth" >
 
 <head>
     <meta charset="UTF-8">
@@ -96,11 +96,11 @@
         </div>
     </header>
 
-    <section class="pt-24 pb-20">
+    <section class="pt-24 md:pb-20">
         <div class="max-w-[1240px] px-5 mx-auto">
             <div class="text-center">
-                <h1 class="spacing_title text-[#3B668D] font-black text-7xl leading-[70px] uppercase mb-2">Contact</h1>
-                <p class="spacing_2 text-[#3B668D] text-2xl uppercase mb-11">Online storage</p>
+                <h1 class="md:spacing_title text-[#3B668D] font-black text-5xl md:text-7xl leading-[70px] uppercase mb-2">Contact</h1>
+                <p class="md:spacing_2 spacing_title text-[#3B668D] text-xl md:text-2xl uppercase md:mb-11 mb-14">Online storage</p>
             </div>
         </div>
     </section>
@@ -110,21 +110,21 @@
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
 
-    <section class="pt-[169px] pb-[449px] relative">
-        <img class="absolute left-0" src="./img/contact/left.png">
-        <img class="absolute right-0 top-[40px]" src="./img/contact/right.png">
+    <section class="pt-[169px] md:pb-[449px] pb-0 relative">
+        <img class="absolute md:block hidden left-0" src="./img/contact/left.png">
+        <img class="absolute md:block hidden right-0 top-[40px]" src="./img/contact/right.png">
         <div class="max-w-[749px] text-center px-5 mx-auto justify-center items-center">
-            <h2 class="text-[#3B668D] font-bold text-7xl leading-[80.28px] mb-8">Drop us a line</h2>
-            <p class="text-[#79788F] text-3xl mb-20">Lorem ipsum dolor sit amet.</p>
+            <h2 class="text-[#3B668D] font-bold text-4xl md:text-7xl leading-[80.28px] md:mb-8 mb-4">Drop us a line</h2>
+            <p class="text-[#79788F] md:text-3xl text-xl md:mb-20 mb-10">Lorem ipsum dolor sit amet.</p>
             <form>
                 <div class="flex items-center gap-11 mb-5">
-                    <label class="text-[#3B3F8D] font-bold text-2xl " for="email">Email</label>
+                    <label class="text-[#3B3F8D] md:block hidden font-bold text-2xl " for="email">Email</label>
                     <input required id="email"
                         class="max-w-[630px] placeholder:text-[#ADADAD] w-full outline-none border-none bg-[#F3F3F3] py-9 px-14 rounded-full text-[#3B3F8D] font-bold"
                         type="email" placeholder="mail@example.com">
                 </div>
                 <div class="flex items-center gap-11 mb-5">
-                    <label class="text-[#3B3F8D] font-bold text-2xl " for="Name">Name</label>
+                    <label class="text-[#3B3F8D] md:block hidden font-bold text-2xl " for="Name">Name</label>
                     <input required id="Name"
                         class="max-w-[630px] placeholder:text-[#ADADAD] w-full outline-none border-none bg-[#F3F3F3] py-9 px-14 rounded-full text-[#3B3F8D] font-bold"
                         type="Name" placeholder="John Doe">
@@ -132,8 +132,8 @@
                 <textarea required placeholder="Message"
                     class="pt-9 px-12 max-w-[749px] w-full h-[273px] placeholder:text-[#ADADAD] bg-[#F3F3F3] rounded-[50px] resize-none text-[#3B3F8D] font-bold outline-none border-none mb-5"
                     name="Message" id="Message"></textarea>
-                <div class="flex items-center justify-between">
-                    <p class="text-[#ADADAD] font-bold text-lg ">We do not share your personal data.</p>
+                <div class="md:flex items-center justify-between">
+                    <p class="text-[#ADADAD] font-bold text-base md:mb-0 mb-9 md:text-lg ">We do not share your personal data.</p>
                     <button
                         class="gradient_btn py-6 px-16 rounded-full text-white font-bold text-2xl">Subscribe</button>
                 </div>
@@ -141,72 +141,74 @@
         </div>
     </section>
 
-    <section class="pb-60 relative">
-        <img class="absolute left-0 bottom-36" src="./img/premium/left.png">
-        <img class="absolute right-0 bottom-36" src="./img/premium/right.png">
-        <div class="max-w-[1240px] px-5 mx-auto flex items-center gap-20 justify-center">
-            <div class="flex items-center gap-8">
-                <img src="./img/premium/download.svg" alt="download">
-                <div>
-                    <h3 class="text-[#425B8C] font-bold text-[42px] leading-10 mb-4">999529 000 000</h3>
-                    <p class="text-[#718DC2] font-bold text-2xl leading-7 ">Загружено файлов на сервис</p>
-                </div>
+    <section class="md:pt-48 pt-[138px] md:pb-60 pb-10 relative">
+        <img class="absolute lg:block hidden left-0 bottom-36" src="./img/premium/left.png">
+        <img class="absolute lg:block hidden right-0 bottom-36" src="./img/premium/right.png">
+        <div class="max-w-[1240px] px-5 mx-auto md:flex items-center gap-20 justify-center">
+          <div class="md:flex text-center items-center gap-8 md:mb-0 mb-16">
+            <img class="flex text-center md:mb-0 mb-4 mx-auto w-20 h-28" src="./img/premium/download.svg" alt="download">
+            <div>
+              <h3 class="text-[#425B8C] font-bold md:text-[42px] text-4xl leading-10 md:mb-4 mb-2">999529 000 000</h3>
+              <p class="text-[#718DC2] font-bold text-xl md:text-2xl leading-7 ">Загружено файлов на сервис</p>
             </div>
-
-            <div class="flex items-center gap-8">
-                <img src="./img/premium/user.svg" alt="user">
-                <div>
-                    <h3 class="text-[#425B8C] font-bold text-[42px] leading-10 mb-4">235 764 784</h3>
-                    <p class="text-[#718DC2] font-bold text-2xl leading-7 ">Зарегистрировано пользователей</p>
-                </div>
+          </div>
+    
+          <div class="md:flex text-center items-center gap-8">
+            <img class="flex text-center md:mb-0 mb-4 mx-auto w-[74px] h-[74px]" src="./img/premium/user.svg" alt="user">
+            <div>
+              <h3 class="text-[#425B8C] font-bold md:text-[42px] text-4xl leading-10 md:mb-4 mb-2">235 764 784</h3>
+              <p class="text-[#718DC2] font-bold text-xl md:text-2xl leading-7 ">Зарегистрировано пользователей</p>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
     <footer class="pt-[448px] pb-14 bg-cover" style="background-image: url(./img/footer/footer.png);">
         <div class="max-w-[1240px] px-5 mx-auto flex justify-between items-center pb-20 border-b mb-16">
-            <div>
-                <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">About us</h3>
-                <p class="text-[#FFFFFF] text-xl max-w-[418px]">When using the SKYBOX Services You may transmit, store
-                    and or
-                    share certain data, information, files, etc.
-                    (altogether “Service Data”). For the avoidance of doubt, You retain full ownership of Your Service
-                    Data.
-                    SKYBOX doea that You or any other uss while using the Service. SKYBOX agrees that these Terms do not
-                    grant</p>
-            </div>
-            <div>
-                <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">Featured links</h3>
-                <ul class="flex flex-col gap-4">
-                    <li><a class="text-white text-xl hover:underline transition-all" href="tarif.html">Pricing</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="contact.html">Contact</a>
-                    </li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="FAQ.html">FAQ</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="text.html">About</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="profile.html">Profile</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Terms of Service</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">Contact us</h3>
-                <ul class="flex flex-col gap-4">
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Our office:</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Digitalgoals LTD</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Lapathou, 6, Strovolos
-                            2027,</a>
-                    </li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="#">Lefkosia, Cyprus</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all" href="tel: +37 06 225 29">Phone:
-                            +37 06 225 29
-                            36</a></li>
-                    <li><a class="text-white text-xl hover:underline transition-all"
-                            href="mailto:  mail@example.com">Email:
-                            mail@example.com</a></li>
-                </ul>
-            </div>
+          <div class="md:block hidden" >
+            <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">About us</h3>
+            <p class="text-[#FFFFFF] text-xl max-w-[418px]">When using the SKYBOX Services You may transmit, store
+              and or
+              share certain data, information, files, etc.
+              (altogether “Service Data”). For the avoidance of doubt, You retain full ownership of Your Service
+              Data.
+              SKYBOX doea that You or any other uss while using the Service. SKYBOX agrees that these Terms do not
+              grant</p>
+          </div>
+          <div class="md:block hidden" >
+            <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">Featured links</h3>
+            <ul class="flex flex-col gap-4">
+              <li><a class="text-white text-xl hover:underline transition-all" href="tarif.html">Pricing</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="contact.html">Contact</a>
+              </li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="FAQ.html">FAQ</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="text.html">About</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="profile.html">Profile</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="text-white font-bold text-5xl leading-[53.52px] mb-16">Contact us</h3>
+            <ul class="flex flex-col gap-4">
+              <li><a class="text-white text-xl hover:underline transition-all" href="#">Our office:</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="#">Digitalgoals LTD</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="#">Lapathou, 6, Strovolos
+                  2027,</a>
+              </li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="#">Lefkosia, Cyprus</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="tel: +37 06 225 29">Phone:
+                  +37 06 225 29
+                  36</a></li>
+              <li><a class="text-white text-xl hover:underline transition-all" href="mailto:  mail@example.com">Email:
+                  mail@example.com</a></li>
+            </ul>
+          </div>
         </div>
-        <p class="text-white font-bold text-2xl text-center">Copyright © 2016 - 2021 - SkyBox - Online File Storage</p>
-    </footer>
+        <p class="text-white font-bold text-xl md:text-2xl text-center px-5">Copyright © 2016 - 2021 - SkyBox - Online File Storage</p>
+      </footer>
+
+
+      <script src="./js/app.js"></script>
 </body>
 
 </html>

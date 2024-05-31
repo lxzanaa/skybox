@@ -594,6 +594,9 @@ video {
 .mb-\[76px\] {
   margin-bottom: 76px;
 }
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
 .block {
   display: block;
 }
@@ -1307,6 +1310,14 @@ body {
     margin-bottom: 1rem;
   }
 
+  .md\:mb-11 {
+    margin-bottom: 2.75rem;
+  }
+
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1374,6 +1385,10 @@ body {
 
   .md\:pt-48 {
     padding-top: 12rem;
+  }
+
+  .md\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .md\:text-left {
