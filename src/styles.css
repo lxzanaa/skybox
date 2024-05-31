@@ -50,3 +50,7 @@ body {
 .spacing__text{
     letter-spacing: 0.35em;
 }
+.bg_image{
+    background-image: url(../public/img/bg-mobile_.png);
+    background-repeat: no-repeat;
+}
